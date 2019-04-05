@@ -1,5 +1,4 @@
 function digits(x) {
-  return x.parseInt();
-
+  return parseInt(x);
 }
-console.log(digits(""));
+console.log(digits("123aa1"));
