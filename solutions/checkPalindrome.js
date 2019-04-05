@@ -1,4 +1,4 @@
-function checkP (x) {
+function checkPalindrome (x) {
   if(x.length>1){
     xi = "";
     for (i = x.length - 1; i >= 0; i--) {
@@ -18,4 +18,8 @@ function checkP (x) {
       return false;
   }
 }
-console.log(checkP("a"));
+console.log(checkPalindrome("aabaa"));
+console.log(checkPalindrome("abac"));
+console.log(checkPalindrome("a"));
+//console.log(checkP("reconocer"));
+//console.log(checkP("oso"));

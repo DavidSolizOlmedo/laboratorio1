@@ -2,7 +2,7 @@
 //Ejemplo. para n = 29, ​addTwoDigits(n) = 11
 
 
-function addTwoDigits(n) {
+function addTwoDigits(n){
 
     var aux1 = n%10;
     var aux2 = parseInt(n/10);
